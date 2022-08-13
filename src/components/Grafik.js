@@ -11,7 +11,7 @@ const Grafik = () => {
       </div>
       <div className="container-body">
         <div>
-          <Bar
+          {/* <Bar
             data={{
               labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
             }}
@@ -20,7 +20,7 @@ const Grafik = () => {
             options={{
               maintainAspectRatio: false,
             }}
-          />
+          /> */}
         </div>
       </div>
     </>

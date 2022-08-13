@@ -1,8 +1,11 @@
-import Grafik from "components/Grafik";
+
+import SideBarKiri from "components/SideBarKiri";
+
 export const Dashboard = () => {
     return (
         <>
-        <div><Grafik/></div>
+        <SideBarKiri />
+        <Grafik/>
         </>
     )
 };
