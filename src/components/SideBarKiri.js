@@ -13,7 +13,9 @@ function SideBarKiri() {
                     <br/>
                     <br/>
                         <p>
-                            <img/>
+                            <img
+                            src=''
+                            />
                             Profile
                         </p>
                 </div>
