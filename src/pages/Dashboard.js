@@ -1,5 +1,8 @@
+import Grafik from "components/Grafik";
 export const Dashboard = () => {
     return (
-        <>Dashboard</>
+        <>
+        <div><Grafik/></div>
+        </>
     )
 };

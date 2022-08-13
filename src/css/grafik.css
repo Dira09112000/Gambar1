@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "formula";
+    src: url(../font/formula.ttf);
+  }
+.container-head{
+    padding: 20px;
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.container-body{
+    padding: 20px;
+}
