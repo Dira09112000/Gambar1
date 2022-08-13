@@ -1,4 +1,4 @@
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 import React from 'react'
 import '../css/sidebarkiri.css';
 
