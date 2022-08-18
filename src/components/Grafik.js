@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/grafik.css";
+import {FiArrowDownRight} from "react-icons/fi";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -9,10 +10,9 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
-import { Line } from 'react-chartjs-2';
+} from "chart.js";
+import { Line } from "react-chartjs-2";
 const Grafik = () => {
-
   ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -22,62 +22,85 @@ const Grafik = () => {
     Tooltip,
     Legend
   );
-  
+
   const options = {
     responsive: true,
     plugins: {
       legend: {
-        position: 'top',
+        position: "top",
       },
       title: {
-        display: true,
-        text: 'Chart.js Line Chart',
+        display: false,
+        text: "",
       },
     },
   };
-  
-  const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
-  
+
+  const labels = ["1PM", "4PM", "7PM", "50PM", "1AM", "4AM", "7AM", "10AM"];
+
   const data = {
     labels,
     datasets: [
       {
-        label: 'Dataset 1',
-        data: [1,2,3],
-        borderColor: 'rgb(255, 99, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
-      },
-      {
-        label: 'Dataset 2',
-        data: [10,20,30],
-        borderColor: 'rgb(53, 162, 235)',
-        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+        label: "",
+        data: ["48.000", "47.500", "47.000", "46.500", "46.000"],
+        borderColor: "#6464D9",
+        fill: true,
+        backgroundColor: "yellow",
       },
     ],
   };
-  
+
   return (
-    <>
+    <div className="container-body">
       <div className="container-head">
-        <div>$46,541.04</div>
+        <div className="container-duit">
+          <div style={{ fontSize: "30px" }}>$46,541.04</div>
+          <div style={{ display: "flex", alignItems:"center" }}>
+            <div style={{paddingRight:"20px"}}>
+              <div className="kotak-persen"> -1,480.67%</div>
+            </div>
+            <div
+              style={{
+                width: "25px",
+                height: "25",
+                borderRadius: "25px",
+                background: "#EE78B3",
+                alignItems:"center",
+                justifyContent:"center",
+                display:"flex",
+                color:"white",
+              }}
+            >
+              <FiArrowDownRight/>
+            </div>
+          </div>
+        </div>
+
         <div>Bitcoin USD (BTC-USD)</div>
       </div>
-      <div className="container-body">
-        <div>
-        <Line options={options} data={data} />;
-          {/* <Bar
-            data={{
-              labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-            }}
-            height={400}
-            width={600}
-            options={{
-              maintainAspectRatio: false,
-            }}
-          /> */}
+      <div className="container-head">
+        <div className="container-sub-head">
+          <div className="kotak-sub-head-1">Summary</div>
+          <div className="kotak-sub-head-1">Chart</div>
+          <div className="kotak-sub-head-1">Conversation</div>
+          <div className="kotak-sub-head-1">Historical Data</div>
+        </div>
+        <div className="container-sub-head">
+          <div className="kotak-sub-head-2">1H</div>
+          <div className="kotak-sub-head-2">24H</div>
+          <div className="kotak-sub-head-2">1W</div>
+          <div className="kotak-sub-head-2">1M</div>
+          <div className="kotak-sub-head-2">3M</div>
+          <div className="kotak-sub-head-2">4M</div>
         </div>
       </div>
-    </>
+      <div style={{ padding: "20px" }}>
+        <div>
+          <Line options={options} data={data} />
+        </div>
+      </div>
+    </div>
   );
 };
 

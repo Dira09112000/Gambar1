@@ -1,0 +1,31 @@
+.all {
+  width: 420px;
+  height: 150vh;
+  background-color: #f8fafb;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kotakarrow1 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #FDDAEA;
+}
+
+.kotakarrow2 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #D8F5E6;
+  }
