@@ -1,6 +1,7 @@
 import Grafik from "components/Grafik";
 import SideBarKanan from "components/SideBarKanan";
 import SideBarKiri from "components/SideBarKiri";
+import Grafik2 from "components/Grafik2";
 export const Dashboard = () => {
   return (
     <>
@@ -11,6 +12,7 @@ export const Dashboard = () => {
 
         <div style={{paddingLeft:"300px"}}>
           <Grafik />
+          <Grafik2/>
         </div>
 
         <div>

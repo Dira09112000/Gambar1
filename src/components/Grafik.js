@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/grafik.css";
-import {FiArrowDownRight} from "react-icons/fi";
+import { FiArrowDownRight } from "react-icons/fi";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -56,8 +56,8 @@ const Grafik = () => {
       <div className="container-head">
         <div className="container-duit">
           <div style={{ fontSize: "30px" }}>$46,541.04</div>
-          <div style={{ display: "flex", alignItems:"center" }}>
-            <div style={{paddingRight:"20px"}}>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div style={{ paddingRight: "20px" }}>
               <div className="kotak-persen"> -1,480.67%</div>
             </div>
             <div
@@ -66,13 +66,13 @@ const Grafik = () => {
                 height: "25",
                 borderRadius: "25px",
                 background: "#EE78B3",
-                alignItems:"center",
-                justifyContent:"center",
-                display:"flex",
-                color:"white",
+                alignItems: "center",
+                justifyContent: "center",
+                display: "flex",
+                color: "white",
               }}
             >
-              <FiArrowDownRight/>
+              <FiArrowDownRight />
             </div>
           </div>
         </div>

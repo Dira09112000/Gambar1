@@ -1,0 +1,13 @@
+.kotak{
+    margin: 5;
+    width: 220px;
+    height: 220px;
+    background: tomato;
+}
+
+.kotak-panjang {
+    margin: 5;
+    width: 100%;
+    height: 450;
+    background:tomato;
+}

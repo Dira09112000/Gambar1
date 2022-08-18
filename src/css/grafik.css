@@ -12,7 +12,7 @@
 
 .container-body{
     width: 800px;
-    height: 400px;
+    height: 600;
     font-weight: bold;
 }
 .container-duit{
@@ -38,7 +38,7 @@
     font-size: 12px;
 }
 .container-body{
-    padding: 20px;
+    padding: 20;
 }
 
 .kotak-sub-head-1:hover{
