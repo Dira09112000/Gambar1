@@ -11,3 +11,104 @@
     height: 450;
     background:tomato;
 }
+
+.card-bnb{
+    margin: 5;
+    width: 220px;
+    height: 220px;
+    background-color: #D0F4DA;
+    border-radius: 20px;
+    align-items: center;
+    font-family: formula;
+}
+
+.card-btc{
+    margin: 5;
+    width: 220px;
+    height: 220px;
+    background-color: #FEEAF3;
+    border-radius: 20px;
+    align-items: center;
+    font-family: formula;
+}
+
+.img-bnb{
+    padding-top: 13px;
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.text-bnb-usd{
+    padding-top: 10px;
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+.button-card{
+    background: aqua;
+    width: 60px;
+    height: 20px;
+    font-size: xx-small;
+    border: none;
+}
+
+.text-dolar{
+    padding-top: 8px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-weight: 500;
+    padding-bottom: 190px;
+}
+
+.card-chat{
+    margin: 5;
+    width: 250x;
+    height:445px;
+    background-color: #FFF6E9;
+    border-radius: 20px;
+    align-items: center;
+    font-family: formula;
+}
+
+
+.buble-chat{
+    width: 16rem;
+    padding-left: 60px;
+}
+
+.chat-share{
+    width: 205px;
+}
+
+.icon-chat-bawah{
+    width: 40px;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon-chat{
+    width: 25px;
+    height: 25px;
+}
+
+.reactions{
+    font-size: small;
+}
+
+.thomas{
+    font-size: small;
+}
+
+.isi-chat{
+    font-size: small;
+}
+
+.button-card-btc{
+    background: papayawhip;
+    width: 60px;
+    height: 20px;
+    font-size: xx-small;
+    border: none;
+}
