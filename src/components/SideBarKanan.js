@@ -1,7 +1,7 @@
 import "../css/sidebarkanan.css";
 import { FiSearch } from "react-icons/fi";
 import { GrNotification } from "react-icons/gr";
-import { BsArrowUpRight, BsArrowDownRight } from "react-icons/bs";
+import { BsArrowUpRight, BsArrowDownRight, BsArrowRight } from "react-icons/bs";
 import { IoIosArrowDown } from "react-icons/io";
 const SideBarKanan = () => {
   return (
@@ -85,7 +85,7 @@ const SideBarKanan = () => {
         {/* End Total Balance */}
 
         {/* My Items */}
-        <div style={{ padding: "20" }}>
+        <div style={{ padding: "20px"}}>
           <div style={{ fontWeight: "bold", fontSize: "25" }}>My Items</div>
           <div
             style={{
@@ -98,7 +98,7 @@ const SideBarKanan = () => {
               style={{
                 display: "flex",
                 justifyContent: "space-between",
-                width: "150",
+                width: "150px",
               }}
             >
               <div className="kotakarrow1">
@@ -117,14 +117,14 @@ const SideBarKanan = () => {
                   <BsArrowDownRight />
                 </div>
               </div>
-              <div>
+              <div style={{paddingRight:"10px"}}>
                 <div>Investment</div>
                 <div style={{ fontWeight: "bold" }}>87.2K</div>
                 <div
                   style={{
                     display: "flex",
-                    width: "80",
-                    borderRadius: "10px",
+                    width: "65px",
+                    borderRadius: "15px",
                     background: "#FDDAEA",
                     justifyContent: "center",
                     color: "#EE78B3",
@@ -141,6 +141,7 @@ const SideBarKanan = () => {
                 display: "flex",
                 justifyContent: "space-between",
                 width: "150",
+                paddingLeft:"20px"
               }}
             >
               <div className="kotakarrow2">
@@ -165,8 +166,8 @@ const SideBarKanan = () => {
                 <div
                   style={{
                     display: "flex",
-                    width: "80",
-                    borderRadius: "10px",
+                    width: "65",
+                    borderRadius: "15px",
                     background: "#D8F5E6",
                     justifyContent: "center",
                     color: "green",
@@ -249,7 +250,7 @@ const SideBarKanan = () => {
             </div>
           </div>
           <br />
-          <div style={{display:"flex", justifyContent:"space-between"}}>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div
               style={{
                 display: "flex",
@@ -261,14 +262,20 @@ const SideBarKanan = () => {
                 justifyContent: "center",
                 color: "white",
                 fontWeight: "bold",
-                cursor:"pointer"
+                cursor: "pointer",
               }}
             >
               Convert
             </div>
-            <div style={{display:"grid"}}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                textAlign: "right",
+              }}
+            >
               <text>1 USD = 0.00003 ETH (-1$)</text>
-              <text>ETH  BUSD</text>
+              <text>ETH BUSD</text>
             </div>
           </div>
         </div>
@@ -278,7 +285,7 @@ const SideBarKanan = () => {
           <div
             style={{
               width: "100%",
-              height: "330",
+              height: "250",
               background: "black",
               borderRadius: "20px",
               color: "white",
@@ -290,6 +297,9 @@ const SideBarKanan = () => {
               </div>
               <div style={{ fontWeight: "bold", fontSize: "20px" }}>
                 Your Plan
+              </div>
+              <div style={{paddingTop:"100px"}}>
+                Let's Go <BsArrowRight/>
               </div>
             </div>
           </div>

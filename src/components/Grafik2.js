@@ -18,10 +18,18 @@ const Grafik2 = () => {
               <div className="card-bnb" style={{ paddingLeft: "5px" }}>
                 <div style={{ display: "flex", paddingBottom: "80px" }}>
                   <img
-                    className="img-bnb"
                     src="https://w7.pngwing.com/pngs/1008/997/png-transparent-bnb-binance-coin-cryptocoin-exchange-coins-crypto-blockchain-cryptocurrency-logo-glyph-icon.png"
-                  ></img>
-                  <p className="text-bnb-usd">BNB-USD</p>
+                  width={30} paddingBottom={5}></img>
+                  <div
+                    style={{
+                      fontSize: "15px",
+                      paddingLeft: "5px",
+                      paddingTop: "5px",
+                    }}
+                  >
+                    <div>BNB-USD</div>
+                    <div>BinanceCoin USD</div>
+                  </div>
                 </div>
                 <div style={{ display: "flex" }}>
                   <button className="button-card">+1.153.08%</button>

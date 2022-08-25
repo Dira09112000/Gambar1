@@ -5,7 +5,7 @@ import Grafik2 from "components/Grafik2";
 export const Dashboard = () => {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", }}>
         <div>
           <SideBarKiri />
         </div>
