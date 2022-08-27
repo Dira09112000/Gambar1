@@ -1,6 +1,6 @@
 #header {
     position: absolute;
-    width: 320px;
+    width: 300px;
   }
   #header .pro-sidebar {
     height: 100%;
@@ -54,19 +54,19 @@
   }
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
     color: #000;
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px 0px;
     font-weight: bold;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
     background-color: #F8FAFB;
     color: #000;
-    font-size: 50px;
+    font-size: 25px;
     border-radius: 3px;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
     color: #000;
-    font-size: 50px;
+    font-size: 25px;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout .active {
     color: white;

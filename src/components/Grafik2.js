@@ -1,8 +1,10 @@
 import "../css/grafik2.css";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
-import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
+import { BsFillArrowUpRightCircleFill, BsFillCursorFill } from "react-icons/bs";
 import { BsFillArrowDownRightCircleFill } from "react-icons/bs";
+import { BiNavigation } from "react-icons/bi";
+
 
 const Grafik2 = () => {
   return (
@@ -188,11 +190,9 @@ const Grafik2 = () => {
                   placeholder="Share your reaction"
                 />
                 <div style={{ paddingLeft: "5px" }}>
-                  <Card className="icon-chat-bawah">
-                    <Card.Body>
-                      {/* <AiOutlineSend/> */}
-                    </Card.Body>
-                  </Card>
+                  <div className="icon-chat-bawah">
+                    <BiNavigation className="pesan-chat" color="white"/>
+                  </div>
                 </div>
               </div>
             </Card.Body>

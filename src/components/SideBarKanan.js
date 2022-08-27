@@ -285,7 +285,7 @@ const SideBarKanan = () => {
           <div
             style={{
               width: "100%",
-              height: "250",
+              height: "280",
               background: "black",
               borderRadius: "20px",
               color: "white",
@@ -298,7 +298,7 @@ const SideBarKanan = () => {
               <div style={{ fontWeight: "bold", fontSize: "20px" }}>
                 Your Plan
               </div>
-              <div style={{paddingTop:"100px"}}>
+              <div style={{paddingTop:"150px"}}>
                 Let's Go <BsArrowRight/>
               </div>
             </div>

@@ -44,7 +44,7 @@ const SideBarKiri = () => {
               {menuCollapse ? (
                 <VscThreeBars />
               ) : (
-                <div className="text py-5">
+                <div className="text py-3">
                   <div className="font-trade">
                     <VscActivateBreakpoints />
                   </div>
@@ -100,19 +100,19 @@ const SideBarKiri = () => {
                 {menuCollapse ? (
                   <AiOutlinePicture />
                 ) : (
-                  <Card>
-                    <div className="container-fluid">
-                      <div className="container">
+                <div className="container-fluid">
+                  <div className="container">
+                    <Card>
                         <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSk4Ek9ZEBrZNq0cR9kAGpZ8GrA4k6usEpaebkDv3_p7OUbdtfq" />
-                        {/* <Card.Body className='text-center'>
-                                      <Card.Title className='font-card'>
-                                          Explore a New Strategy
-                                      </Card.Title>
-                                      <Button>Try Now <VscArrowRight /></Button>
-                                  </Card.Body> */}
-                      </div>
-                    </div>
-                  </Card>
+                        <Card.Body className='text-center'>
+                            <Card.Title className='font-card'>
+                                Explore a New Strategy
+                            </Card.Title>
+                            <Button>Try Now <VscArrowRight /></Button>
+                        </Card.Body>
+                    </Card>
+                  </div>
+                </div>
                 )}
               </div>
             </div>
