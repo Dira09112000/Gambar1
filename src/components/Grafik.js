@@ -26,11 +26,16 @@ const Grafik = () => {
   );
 
   const options = {
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+
     scales: {
       x: {
         grid: {
           display: false,
-          
         },
       },
       y: {
@@ -46,7 +51,7 @@ const Grafik = () => {
     datasets: [
       {
         fill: true,
-        cubicInterpolationMode:"yes ",
+        cubicInterpolationMode: "yes ",
         borderWidth: 2,
         pointHoverRadius: 15,
         showLine: true,
