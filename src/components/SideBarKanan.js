@@ -26,7 +26,7 @@ const SideBarKanan = () => {
             </div>
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
-            <div>
+            <div style={{textAlign:"right"}}>
               <div style={{ fontWeight: "bold" }}>James Thompson</div>
               <div>@jmtson</div>
             </div>
